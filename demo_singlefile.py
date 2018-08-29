@@ -105,10 +105,8 @@ def main(config, image_path, model_path, cuda, crf):
         ax.set_xticks([])
         ax.set_yticks([])
 
-    #plt.tight_layout()
-    plt.savefig('/Users/fei/tmp/deeplab_result.png', bbox_inches='tight')
+    plt.tight_layout()
     plt.show()
-    plt.close()
 
 
 if __name__ == "__main__":
